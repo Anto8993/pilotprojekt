@@ -4,15 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
     <title>Pilotprojekt</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <h1>Musiker og Manager</h1>
-        <p>Rasmus Moosdorf</p>
-        <video autoplay loop playsinline class="header_vid">
+        <p id="navn">Rasmus Moosdorf</p>
+        <video autoplay playsinline loop class="header_vid">
             <source src="https://antonbb.dk/kea/05_indhold/05_03_pilot/bg_vid.mp4" type="video/mp4">
         </video>
     </header>
+    <main>
+        <section>
+            <article>
+                <div class="header_text">
+                    <h2>Musik</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae exercitationem nemo optio tempore? Sunt, blanditiis nisi fuga quod minus nostrum vitae quia dolorum sit adipisci dolorem in voluptatem! Iure, laudantium.</p>
+                </div>
+                <div id="musik">
+                    <img src="musik.webp" alt="Billede af at han spiller guitar">
+                </div>
+            </article>
+        </section>
+        <section>
+            <article>
+                <div class="pics">
+                    <img src="manage.webp" alt="business">
+                </div>
+                <div class="text">
+                    <h2>Management</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique beatae nihil enim consectetur ea omnis labore, temporibus, totam autem at consequuntur. Ex deleniti, dolor nemo dicta est quaerat debitis nesciunt.</p>
+                </div>
+            </article>
+        </section>
+        <section id="section_vid">
+            <div id="video">
+            <h2>Video</h2>
+            </div>
+            <article>
+                <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/W3TjeO9zMGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div>
+                <video controls src="https://antonbb.dk/kea/05_indhold/05_03_pilot/pilot.mp4"></video>
+            </div>
+            </article>
+        </section>
+        <section>
+            <article>
+                <div class="text">
+                    <h2>Hverdag</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur enim, praesentium cumque hic deleniti ex amet commodi fugiat illo!</p>
+                </div>
+                <figure class="gallery">
+                    <img src="p1.webp" alt="billede">
+                    <img src="p2.webp" alt="billede">
+                    <img src="p3.webp" alt="billede">
+                    <img src="p4.webp" alt="billede">
+                    <img src="p5.webp" alt="billede">
+                    <img src="p6.webp" alt="billede">
+                    <img src="p7.webp" alt="billede">
+                </figure>
+            </article>
+        </section>
+        <section>
+            <article>
+                <div><h2>Layoutdiagram</h2>
+                <img src="layoutdiagram.jpg" alt=""></div>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
