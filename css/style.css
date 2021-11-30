@@ -98,3 +98,31 @@ video, iframe{
 #section_vid{
     background-color: rgb(205, 205, 205);
 }
+
+section{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.gallery {
+    display: grid;
+    gap: min(1.75rem, 2vw);
+    grid: auto-flow 1fr / 1fr 1fr 1fr;
+    align-items: stretch;
+  }
+  
+  .gallery img {
+    grid-row-end: span 2;
+    border-radius: 4px;
+    object-fit: cover;
+    block-size: 100%;
+  }
+  
+  .gallery img:is(:nth-child(1), :nth-child(3)) {
+    grid-row-start: 2;
+  }
+  
+  .gallery img:nth-child(2) {
+    grid-row-start: 1;
+  }
+  
